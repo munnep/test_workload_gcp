@@ -5,7 +5,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "auto-expire" {
-  name          = "test158940"
+  name          = "test15894033"
   location      = "EUROPE-WEST4"
   force_destroy = true
 
